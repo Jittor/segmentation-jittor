@@ -49,13 +49,13 @@ $ sh train.sh
 欢迎大家使用Jittor的GAN模型库开展自己的研究工作。如果大家发现模型库有什么问题，或者有自己实现的GAN想要发布在这里，请大家在github提交issue或者pr。
 
 
- ## 参考:
+##参考
 
-[1]:[openseg](<https://github.com/openseg-group/openseg.pytorch>)
+[1][openseg](<https://github.com/openseg-group/openseg.pytorch>)
 
-[2]:[Pytorch-Deeplab](<https://github.com/jfzhang95/pytorch-deeplab-xception>)
+[2][Pytorch-Deeplab](<https://github.com/jfzhang95/pytorch-deeplab-xception>)
 
-[3]:[DANet](<https://github.com/junfu1115/DANet>)
+[3][DANet](<https://github.com/junfu1115/DANet>)
 
-[4]:[EMANet](<https://github.com/XiaLiPKU/EMANet>)
+[4][EMANet](<https://github.com/XiaLiPKU/EMANet>)
 

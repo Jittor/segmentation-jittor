@@ -1,5 +1,4 @@
-
-## 计图语义分割模型库
+# 计图语义分割模型库
 
 本次计图平台所发布的语义分割模型库，已经支持了目前主流的语义分割算法。其中包含了三种经典的 Backbone ，以及六种常见的分割 Head，具体如下表所示。
 
@@ -49,7 +48,7 @@ $ sh train.sh
 欢迎大家使用Jittor的GAN模型库开展自己的研究工作。如果大家发现模型库有什么问题，或者有自己实现的GAN想要发布在这里，请大家在github提交issue或者pr。
 
 
-## 参考
+### 参考
 
 [1][openseg](<https://github.com/openseg-group/openseg.pytorch>)
 

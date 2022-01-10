@@ -48,9 +48,9 @@ def train(model, train_loader, optimizer, epoch, init_lr, writer):
         image = image.float32()
         jt.sync_all()
         start_time = time.time()
-        context, pred = model(image) 
+        pred = model(image) 
         
-        loss = model.get_loss(target, pred, context, settings.IGNORE_INDEX)
+        loss = model.get_loss(target, pred, settings.IGNORE_INDEX)
         optimizer.step (loss)
         jt.sync_all()
         end_time = time.time()
@@ -127,7 +127,7 @@ def main():
     epochs = settings.EPOCHS
     evaluator = Evaluator(settings.NCLASS)
     for epoch in range (epochs):
-        #train(model, train_loader, optimizer, epoch, learning_rate, writer)
+        train(model, train_loader, optimizer, epoch, learning_rate, writer)
         val(model, val_loader, epoch, evaluator, writer)
 
 if __name__ == '__main__' :
